@@ -1,11 +1,10 @@
-# Aleksandr Nikitin - Data Analysis Portfolio 
+# Itay Hilel - Data Analysis Portfolio 
 
 ## About
 
-Hi, I'm Itay! I have a technical background and hold a Economics and Data Science degree (Reichman university), majoring in Seismic Data Processing and Analysis. I had worked for 2 years in a startup playing roles as Data Aanalyst.   
-Achieved the 7th place at an open Data Analyst 2021 competition held by [Career Factory.](https://contest.careerfactory.ru/contest_inside/1618853698875x612895580932538400)    
+Hi, I'm Itay! I have a technical background and hold a Economics and Data Science degree (Reichman university), majoring in Seismic Data Processing and Analysis. I had worked for 2 years in a startup playing roles as Data Analyst.    
 
-My article on Habr on matching two open data datasets with help of ML ---> [go to the article..](https://habr.com/ru/company/tochka/blog/699490/)    
+My article on Design Inspiration from Generative Networks Shoe-GAN ---> [go to the article..](https://www.overleaf.com/read/qphyqzmnrnhx)    
 
 <br>
 This is a repository to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.  
@@ -38,19 +37,19 @@ This is a repository to showcase skills, share projects and track my progress in
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
 ### Video Games Sales Analysis
-**Code:** [`video_games_sales.ipynb`](https://github.com/nktnlx/data_analysis_portfolio/blob/main/video_games_sales.ipynb)    
-**Description:** The dataset contains 16715 records as of 2016. There is a list of video games with sales (by region), year of release, platform, critics and users score. The project includes the following steps: data loading, data cleaning and preprocessing, filling missing values, EDA (exploratory data analysis), analyzing region based user profiles, measuring statistical factors, hypothesis testing.  
+**Code:** [`AR_VR_Video_Game_Sales_prediction.ipynb`](https://colab.research.google.com/drive/1fmBOaTRAdrbcOQcs4su-YQkCyk3R7v_1?usp=sharing)    
+**Description:** The gaming industry is certainly one of the thriving industries of the modern age and one of those that are most influenced by the advancement in technology. With the availability of technologies like AR/VR in consumer products like gaming consoles and even smartphones, the gaming sector shows great potential. In this hackathon, you as a data scientist must use your analytical skills to predict the sales of video games depending on given factors. Given are 8 distinguishing factors that can influence the sales of a video game. Your objective as a data scientist is to build a machine learning model that can accurately predict the sales in millions of units for a given game.
 **Skills:** data cleaning, data analysis, descriptive statistics, central limit theorem, hypothesis testing, data visualization.  
 **Technology:** Python, Pandas, Numpy, Scipy Stats, Seaborn, Matplotlib.  
-**Results:** Review of the global and regional video games markets, data-based business recommendations.  
+**Results:** prediction the sales of video games depending on given factors.
 
-### A Mobile Game Data Analysis
-**Code:** [`final_project.ipynb`](https://github.com/nktnlx/data_analysis_course/blob/main/37_final_project/final_project.ipynb)    
-**Presentation:** [`my_project_slides.pdf`](https://github.com/nktnlx/data_analysis_course/blob/main/37_final_project/my_project_slides.pdf)   
-**Description:** The final project for 5 month Data Analysis Course. Setup: you're employed in a mobile games development company. A Product Manager gives you following tasks: to find and visualize retention, to make a decision based on the A/B test data, to suggest a number of metrics to evaluate the results of the last monthly campaign.   
-**Skills:** data cleaning, detecting data anomalies, python coding, data visualization, descriptive statistics, dealing with outliers, A/B tests, Shapiro–Wilk test, Levene's test, data transforms, Mann–Whitney U test, proportions z-test, bootstrapping, defining metrics.    
+### OpenAI's Whisper
+**Code:** [`OpenAI_Whisper_Demo`](https://colab.research.google.com/drive/1-Ofp1JZKS4FfpQrjUVfnTeJflXUMFSZH?usp=sharing)    
+**Paper:** [`OpenAI.com/blog/whisper`](https://openai.com/blog/whisper/)   
+**Description:** Whisper is an automatic speech recognition (ASR) system trained on 680,000 hours of multilingual and multitask supervised data collected from the web. We show that the use of such a large and diverse dataset leads to improved robustness to accents, background noise and technical language. Moreover, it enables transcription in multiple languages, as well as translation from those languages into English. We are open-sourcing models and inference code to serve as a foundation for building useful applications and for further research on robust speech processing.  
+**Skills:** API,data cleaning, detecting data anomalies, python coding, data visualization, descriptive statistics, dealing with outliers, A/B tests, Shapiro–Wilk test, Levene's test, data transforms, Mann–Whitney U test, proportions z-test, bootstrapping, defining metrics.    
 **Technology:** Python, Pandas, Numpy, Scipy Stats, Seaborn, Matplotlib, Statsmodels Stats, Bootstrap.     
-**Results:** python functions to calculate and plot users retention, hypothesis testing, detecting statistically significant result with a recommendation to push tested in-app changes into production, a set of metrics to evaluate success of promotion campaign.  
+**Results:** adding voice interfaces to a much wider set of applications.
 
 ### A Landing Page Design Experiment
 **Code:** [`notebook.ipynb`](https://github.com/nktnlx/side_projects/blob/master/4_career_factory/notebook.ipynb)    
@@ -61,16 +60,14 @@ In this section I will list data analytics projects briefly describing the techn
 **Results:** A/B test design analysis, conclusion on rolling the new landing page design to production, recommendations on how to improve. 
 
 ### Online Advertising Campaign Analysis
-**Code:** [`ya_ad_int_solution.ipynb `](https://github.com/nktnlx/side_projects/blob/master/6_ya_ad_internship/ya_ad_int_solution.ipynb)    
-**Presentation:** [`ya_ad_int_slides_upd.pdf`](https://github.com/nktnlx/side_projects/blob/master/6_ya_ad_internship/ya_ad_int_slides_upd.pdf)    
-**Description:** My submission to Yandex Advertising Analytics internship program.    
+**Code:** [`Analyzing_Marketing_Campaigns.ipynb `](https://github.com/itay-hilel/Data-Analysis-Portfolio/blob/0fcf9890a78b7ef27959887b0e43fa217ed75327/Analyzing_Marketing_Campaigns_with_pandas.ipynb)     
+**Description:** The analysis of fake marketing dataset based on the data of an online subscription business. Answering business questions like "How did this campaign perform?", "Which channel is referring the most subscribers?", "Why is a particular channel underperforming?" are answered using data from the analysis. This project is build on Python and pandas fundamentals, such as merging/slicing datasets, groupby(), correcting data types and visualizing results using matplotlib.
 **Skills:** data cleaning, CTR, CPC, CPA and CR calculation, comparing metrics with competitors, visualizing results, drawing conclusions.    
 **Technology:** Python, Pandas, Numpy, Seaborn, Matplotlib.     
-**Results:** the slide deck with online advertising campaign analysis and recommendations on how to improve based on the service category. 
+**Results:** Calculating list and significance testing Evaluating using t-test using 'stats.ttest_ind' from the scipy library Building and testing of A/B test segmenting function.
 
 ### Airbnb Listings Analytics 
-**Tableau Public:** [`dashboard`](https://public.tableau.com/app/profile/nktn.lx/viz/LondonAirbnbListingsAnalyticalDashboardpractice5/Dashboard1)    
-**Dashboard canvas:** [`dashboard_canvas.pdf`](https://github.com/nktnlx/data_analysis_course/blob/main/32_airbnb_listings/dashboard_canvas.pdf)   
+**Tableau Public:** [`dashboard`](https://public.tableau.com/app/profile/itay.hilel/viz/ItayHilel/Dashboard1#1)   
 **Description:** Tableau Public dashboard consisted of: calculated renting property occupation rate; analytical chart to choose the best property by occupation rate, review score and price per night; a ranked table of top listings by calculated potential annual revenue; average price, average occupation rate and a number of unique listings KPIs; filters by neighborhood, occupation rate and a number of reviews per the last twelve month.    
 **Skills:** interview with a customer, requirements capture, designing an analytical dashboard, product delivery.    
 **Technology:** Tableau.    
@@ -155,7 +152,5 @@ I believe that the best way to showcase skills is by doing and sharing your job 
 - [IELTS Academic](https://drive.google.com/file/d/1bB3bBUtCeHttCQQHdLP6Om45dFgDyXYw/view?usp=sharing) (Overall Band Score 7.0 - Proficient English User (C1)) (Apr 2014)
 
 ## Contacts
-- LinkedIn: [@nktnlx](https://www.linkedin.com/in/nktnlx)
-- Telegram: [@nktnlx](https://t.me/nktnlx)
-- Twitter: [@nktn_lx](https://twitter.com/nktn_lx)
-- E-mail: nktn.lx@gmail.com
+- LinkedIn: [@ItayHilel](https://www.linkedin.com/in/itay-hilel/)
+- E-mail: Hilelitay@gmail.com
