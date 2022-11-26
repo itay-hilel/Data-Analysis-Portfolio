@@ -20,13 +20,8 @@ This is a repository to showcase skills, share projects and track my progress in
 - [Study Projects](#study-projects)  
 	+ [sklearn ML course](#sklearn-ml-course)
 	+ [Kaggle 30 Days of ML](#kaggle-30-days-of-ml)
-	+ [Data Analysis Course](#data-analyst-specialization)
-	+ [Data Analysis Course Tinkoff-MSU](#data-analysis-course-tinkoff-msu)
 	+ [Learning SQL](#learning-sql)
-	+ [Python Developer Track](#python-developer-track)
-	+ [Computer Science Career Path](#computer-science-career-path)
 	+ [Google Python Class](#google-python-class)
-	+ [Tableau Vizzes](#tableau-vizzes)
 - [Contacts](#contacts)
 
 ## Portfolio Projects
